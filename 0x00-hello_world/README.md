@@ -11,3 +11,5 @@
 
 4-puts.c - a C file that contains the function puts() and prints "Programming is like building a multilingual puzzle
 
+
+5-printf.c -  a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
