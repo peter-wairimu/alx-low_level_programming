@@ -1,12 +1,14 @@
 #include <stdio.h>
+#include <unistd.h>
+
 /**
-    * main - prints a string
-    *
-    * Return:  1 if program is a success
-*/
+ * main - prints exactly "and that piece of art is useful"
+ * - Dora Korpar, 2015-10-19",
+ * followed by a new line, to the standard error.
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-write(2, str, 59);
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 return (1);
 }
