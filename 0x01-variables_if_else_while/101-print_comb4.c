@@ -6,27 +6,40 @@
  */
 int main(void)
 {
-int i;
-int j;
-int k;
+{
+int a, b, c;
 
-for (i = 48; i < 58; i++)
+a = 48;
+b = 48;
+c = 48;
+
+while (b < 58)
 {
-for (j = 48; j < 58; j++)
+a = 48;
+while (a < 58)
 {
-for (k = 48; k < 58; k++)
+c = 48;
+while (c < 58)
 {
-putchar(i);
-putchar(j);
-putchar(k);
-if (i != 57 || j != 57 || k != 57)
+if (b != a && b != c && a != c && b < a && a < c)
 {
+putchar(b);
+putchar(a);
+putchar(c);
+if (a == 56 && b == 55 && c == 57)
+{
+break;
+}
 putchar(',');
 putchar(' ');
 }
+c++;
 }
+a++;
 }
+b++;
 }
 putchar('\n');
 return (0);
+}
 }
