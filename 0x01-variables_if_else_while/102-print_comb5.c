@@ -6,31 +6,42 @@
  */
 int main(void)
 {
-int i, e;
+int i, k, j, h, k1, k2;
 
-i = 48;
-e = 48;
-
-while (e < 58)
+i = k = j = h = 48;
+while (h < 58)
+{
+j = 48;
+while (j < 58)
+{
+k = 48;
+while (k < 58)
 {
 i = 48;
 while (i < 58)
 {
-if (e != i && e < i)
+k1 = (h * 10) + j;
+k2 = (k * 10) + i;
+if (k1 < k2)
 {
-putchar(e);
+putchar(h);
+putchar(j);
+putchar(' ');
+putchar(k);
 putchar(i);
-if (i == 57 && e == 56)
-{
+if (h == 57 && j == 56 && k == 57 && i == 57)
 break;
-}
 putchar(',');
 putchar(' ');
 }
 i++;
+i++;
 }
-e++;
+j++;
+}
+h++;
 }
 putchar('\n');
 return (0);
+}
 }
