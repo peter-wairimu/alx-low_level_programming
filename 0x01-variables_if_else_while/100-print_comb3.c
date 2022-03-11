@@ -6,21 +6,30 @@
  */
 int main(void)
 {
-int i;
-int j;
+int i, j;
 
-for (i = 48; i < 58; i++)
+i = 48;
+j = 48;
+
+while (j < 58)
 {
-for (j = 48; j < 58; j++)
+i = 48;
+while (i < 58)
 {
-putchar(i);
+if (j != i && j < i)
+{
 putchar(j);
-if (i != 57 || j != 57)
+putchar(i);
+if (i == 57 && j == 56)
 {
+break;
+}
 putchar(',');
 putchar(' ');
 }
+i++;
 }
+j++;
 }
 putchar('\n');
 return (0);
