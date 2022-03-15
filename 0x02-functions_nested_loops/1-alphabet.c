@@ -1,27 +1,13 @@
-#include <stdio.h>
-#include <unistd.h>
 #include "main.h"
 /**
- * main - calls function print_alphabet
- * print_putchar - prints lowercase alphabet
- * c - character to print
- * print_alphabet - prints lowercase alphabet
- * Return: if runs successfully return 0
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line.
+ *
  */
-void print_putchar(char c) { write(STDOUT_FILENO, &c, 1); }
 void print_alphabet(void)
 {
-char i;
+char x;
 
-i = 'a';
-while (i <= 'z')
-{
-print_putchar(i);
-i++;
-}
-}
-int main(void)
-{
-print_alphabet();
-return (0);
+for (x = 'a'; x <= 'z'; x++)
+_putchar(x);
+_putchar('\n');
 }
