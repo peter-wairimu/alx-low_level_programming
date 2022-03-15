@@ -5,3 +5,7 @@
 2-print_alphabet_x10.c - a program that prints the alphabet 10 times, followed by a new line.
 
 3-islower.c - a program that prints islower, followed by a new line.
+
+4-isalpha.c -  a function that checks for alphabetic character.
+
+5-sign.c -  a function that prints the sign of a number.
