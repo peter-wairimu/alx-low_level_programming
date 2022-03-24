@@ -12,3 +12,17 @@
 5-string_toupper.c - a function that converts all lowercase letters in a string to uppercase.
 
 6-cap_string.c - a function that capitalizes all words of a string.
+
+
+7-leet.c - a function that encodes a string into 1337.
+
+100-rot13.c -a function that encodes a string using rot13.
+
+101-print_number.c -  a function that prints an integer
+
+
+102-magic.c - a function that prints a magic square.
+
+103-infinite_add.c - a function that adds two numbers, but stops when the sum is greater than 1000.
+
+104-main.c - a function that prints a buffer.
