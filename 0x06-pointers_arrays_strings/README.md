@@ -1,1 +1,14 @@
 0-strcat.c - a function that concatenates two strings.
+
+1-strncat.c - a function that concatenates two strings, but only up to a certain length.
+
+2-strncpy.c - a function that copies a string to another string, but only up to a certain length.
+
+
+3-strcmp.c - a function that compares two strings.
+
+4-rev_array.c - a function that reverses the order of the elements in an array.
+
+5-string_toupper.c - a function that converts all lowercase letters in a string to uppercase.
+
+6-cap_string.c - a function that capitalizes all words of a string.
