@@ -21,7 +21,8 @@ if (index != 0)
 {
 for (i = 0; i < index - 1 && prev != NULL; i++)
 {
-prev = prev->next}
+prev = prev->next;
+}
 }
 
 if (prev == NULL || (prev->next == NULL && index != 0))
