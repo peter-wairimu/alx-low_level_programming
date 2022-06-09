@@ -9,18 +9,21 @@
  */
 int sum_dlistint(dlistint_t *head)
 {
-    int sum;
-    sum = 0;
+	int sum;
 
-    if(head != NULL)
-    {
-        while(head->prev != NULL)
-               head = head->prev;
-        while(head != NULL)
-        {
-            sum ++;
-            head = head->next;
-        }
-    }
-    return (sum);
+	sum = 0;
+
+	if (head != NULL)
+	{
+		while (head->prev != NULL)
+			head = head->prev;
+
+		while (head != NULL)
+		{
+			sum += head->n;
+			head = head->next;
+		}
+	}
+
+	return (sum);
 }
