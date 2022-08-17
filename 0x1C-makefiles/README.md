@@ -6,8 +6,8 @@ All of the following files are scripts and programs written in C:
 
 | Filename | Description |
 | -------- | ----------- |
-| `0-hash_table_create.c` | Function that creates a hash table |
-| `1-djb2.c` | Function that executes the djb2 algorithm |
+| `0-Makefile` | first Makefile. |
+| `1-Makefile` | Function that executes the djb2 algorithm |
 | `2-key_index.c` | Function that returns the index of a key |
 | `3-hash_table.c` | Function that adds an element to the hash table |
 | `4-hash_table_get.c` | Function that retrieves a value associated with a key |
