@@ -1,10 +1,10 @@
 #include "search_algos.h"
 
 /**
- * print_array - print 
+ * print_array - print
  * @array: The sort
- * @left: min 
- * @right: max 
+ * @left: min
+ * @right: max
  * Return: Not
  */
 void print_array(int *array, int left, int right)
@@ -18,10 +18,10 @@ void print_array(int *array, int left, int right)
 
 /**
  * binary_search - seacrh dividin
- * @array: the sort 
- * @size: size of 
- * @value: value to 
- * Return: The index of the value 
+ * @array: the sort
+ * @size: size of
+ * @value: value to
+ * Return: The index of the value
  */
 int binary_search(int *array, size_t size, int value)
 {
